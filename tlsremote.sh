@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo su
-apt-get update
-apt-get upgrade
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get -y install unrar
 sudo apt-get -y install vim
 wget --no-check-certificate https://github.com/kevinkingdomviva/stunnel/blob/master/tls-tunnel.rar
